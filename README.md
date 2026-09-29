@@ -1,3 +1,4 @@
+<div align="center">
 
 <img src="assets/banner.svg" width="100%" alt="Hi, I'm Patthamon — AI undergraduate building AI for healthcare" />
 <img src="assets/typing-icons.svg" width="100%" alt="Typing toolkit: Python, C++, JavaScript, HTML5, Jupyter" />
