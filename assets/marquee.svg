@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="130" viewBox="0 0 820 130" role="img" aria-label="Scrolling parade of my tools: Python, C, C++, JavaScript, TypeScript, SQL, React, FastAPI, Streamlit, Pandas, scikit-learn, Tauri">
+  <style>
+    .ab{font:700 22px 'Segoe UI',Consolas,monospace;text-anchor:middle}
+    .slide{animation:scroll 32s linear infinite}
+    @keyframes scroll{to{transform:translateX(-1200px)}}
+  </style>
+  <defs>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FBF9FC"/><stop offset="1" stop-color="#FBF9FC" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FBF9FC" stop-opacity="0"/><stop offset="1" stop-color="#FBF9FC"/>
+    </linearGradient>
+    <!-- one tile set, repeated twice for a seamless loop; stride 100px, 12 tiles = 1200px -->
+    <g id="set">
+      <g><rect x="0" y="30" width="84" height="64" rx="14" fill="#7FB3D3"/><rect x="0" y="24" width="84" height="64" rx="14" fill="#A7D8F0"/><text class="ab" x="42" y="63" fill="#2F5D7C">Py</text></g>
+      <g><rect x="100" y="30" width="84" height="64" rx="14" fill="#9AA1B0"/><rect x="100" y="24" width="84" height="64" rx="14" fill="#C7CCDA"/><text class="ab" x="142" y="63" fill="#454B57">C</text></g>
+      <g><rect x="200" y="30" width="84" height="64" rx="14" fill="#B49DD3"/><rect x="200" y="24" width="84" height="64" rx="14" fill="#D8C6EC"/><text class="ab" x="242" y="63" fill="#5A4478">C++</text></g>
+      <g><rect x="300" y="30" width="84" height="64" rx="14" fill="#E0B98F"/><rect x="300" y="24" width="84" height="64" rx="14" fill="#FDDCAD"/><text class="ab" x="342" y="63" fill="#7A5A1F">Js</text></g>
+      <g><rect x="400" y="30" width="84" height="64" rx="14" fill="#8FB1E0"/><rect x="400" y="24" width="84" height="64" rx="14" fill="#B8CEF7"/><text class="ab" x="442" y="63" fill="#2B5EA7">Ts</text></g>
+      <g><rect x="500" y="30" width="84" height="64" rx="14" fill="#8FC3AC"/><rect x="500" y="24" width="84" height="64" rx="14" fill="#C4E0D5"/><text class="ab" x="542" y="63" fill="#2E6E57">SQL</text></g>
+      <g><rect x="600" y="30" width="84" height="64" rx="14" fill="#E89BB0"/><rect x="600" y="24" width="84" height="64" rx="14" fill="#FFC9D3"/><text class="ab" x="642" y="63" fill="#B25C77">Re</text></g>
+      <g><rect x="700" y="30" width="84" height="64" rx="14" fill="#D97B92"/><rect x="700" y="24" width="84" height="64" rx="14" fill="#F7A8B8"/><text class="ab" x="742" y="63" fill="#8F2F47">Fa</text></g>
+      <g><rect x="800" y="30" width="84" height="64" rx="14" fill="#E0A0A0"/><rect x="800" y="24" width="84" height="64" rx="14" fill="#FDC9C9"/><text class="ab" x="842" y="63" fill="#A13B3B">St</text></g>
+      <g><rect x="900" y="30" width="84" height="64" rx="14" fill="#D089A8"/><rect x="900" y="24" width="84" height="64" rx="14" fill="#F2B8D0"/><text class="ab" x="942" y="63" fill="#8F2F63">Pd</text></g>
+      <g><rect x="1000" y="30" width="84" height="64" rx="14" fill="#DFA14D"/><rect x="1000" y="24" width="84" height="64" rx="14" fill="#F8C471"/><text class="ab" x="1042" y="63" fill="#8A4B08">Sk</text></g>
+      <g><rect x="1100" y="30" width="84" height="64" rx="14" fill="#DFAE4F"/><rect x="1100" y="24" width="84" height="64" rx="14" fill="#FFC96B"/><text class="ab" x="1142" y="63" fill="#6E4A08">Ta</text></g>
+    </g>
+  </defs>
+  <rect width="820" height="130" rx="18" fill="#FBF9FC"/>
+  <text x="410" y="15" font-size="11" font-family="'Segoe UI',sans-serif" fill="#9AA1B0" text-anchor="middle" letter-spacing="3">PYTHON · C · C++ · JS · TS · SQL · REACT · FASTAPI · STREAMLIT · PANDAS · SKLEARN · TAURI</text>
+  <g class="slide">
+    <use href="#set" x="20" y="0"/>
+    <use href="#set" x="1220" y="0"/>
+  </g>
+  <rect x="0" y="0" width="70" height="130" fill="url(#fadeL)"/>
+  <rect x="750" y="0" width="70" height="130" fill="url(#fadeR)"/>
+</svg>

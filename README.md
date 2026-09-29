@@ -5,6 +5,12 @@
 
 </div>
 
+<div align="center">
+
+<img src="assets/divider.svg" width="70%" alt="" />
+
+</div>
+
 ## 🩺 About me
 
 <table>
@@ -31,6 +37,12 @@
 - 🗣 ไทย (native) · English (IELTS 5.0) · 中文 (HSK 4) — a Thai AI student living in Harbin 🇨🇳
 - 💬 Ask me about RAG evaluation loops, GNNs, or juggling a double degree across two countries
 
+<div align="center">
+
+<img src="assets/divider.svg" width="70%" alt="" />
+
+</div>
+
 ## 💼 Experience
 
 **Video KB** · *Data & AI Intern* — 6 Jul 2026 – 28 Oct 2026
@@ -42,6 +54,12 @@
 - Engineered **Multi-agent RAG** (LangGraph) with parallel retrieval over text, image OCR & video transcripts (ffmpeg), served as **SSE streaming** on async FastAPI
 - Cut serving cost via **multi-model routing (LiteLLM)**; added a Faithfulness/Relevance eval loop with human feedback logged to SQLite
 - Ported the app to Windows with full Thai localization; template-driven Office generation (Markdown → PPTX/DOCX/XLSX)
+
+<div align="center">
+
+<img src="assets/divider.svg" width="70%" alt="" />
+
+</div>
 
 ## 🚀 Featured projects
 
@@ -82,7 +100,19 @@ Predictive digital twin for marine assets — graph models, simulation & sensor 
 </table>
 </div>
 
+<div align="center">
+
+<img src="assets/divider.svg" width="70%" alt="" />
+
+</div>
+
 ## 🧰 Tech stack
+
+<div align="center">
+
+<img src="assets/marquee.svg" width="100%" alt="Scrolling parade of tools: Python, C, C++, JavaScript, TypeScript, SQL, React, FastAPI, Streamlit, Pandas, scikit-learn, Tauri" />
+
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=FFDF6B" alt="Python"/>
@@ -120,11 +150,50 @@ Predictive digital twin for marine assets — graph models, simulation & sensor 
 </p>
 <p align="center"><sub>covers what I actually ship with — from my repos, internship work &amp; resume 🙂</sub></p>
 
+<div align="center">
+
+<img src="assets/divider.svg" width="70%" alt="" />
+
+</div>
+
+## 📊 Coding stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=PatthamonCharaschimpleekul&show_icons=true&bg_color=FDF6FA&border_color=B5EAD7&title_color=3D4A5C&icon_color=E58AA8&text_color=5B6B7F&border_radius=14&card_width=430" width="430" alt="GitHub stats card"/>
+<img src="https://github-readme-stats.vercel.app/api/streak/?username=PatthamonCharaschimpleekul&bg_color=FEFCFF&border_color=D8C6EC&stroke_color=B5EAD7&title_color=3D4A5C&text_color=5B6B7F&fire_color=E58AA8&ring_color=7FCBB0&border_radius=14" width="430" alt="GitHub streak stats"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PatthamonCharaschimpleekul&layout=compact&langs_count=8&bg_color=FEFCFF&border_color=FDDCAD&title_color=3D4A5C&text_color=5B6B7F&use_colors=true&border_radius=14&card_width=470" width="470" alt="Top programming languages"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=PatthamonCharaschimpleekul&theme=flat&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub profile achievements trophies"/>
+
+</div>
+
+<div align="center">
+
+<img src="assets/divider.svg" width="70%" alt="" />
+
+</div>
+
 ## 🐍 My contributions, munched daily
 
 <div align="center">
 
 <img src="assets/snake.gif" width="100%" alt="A pastel snake eating through my GitHub contribution grid"/>
+
+</div>
+
+<div align="center">
+
+<img src="assets/divider.svg" width="70%" alt="" />
 
 </div>
 

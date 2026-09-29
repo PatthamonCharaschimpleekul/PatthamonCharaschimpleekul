@@ -1,16 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="220" viewBox="0 0 820 220" role="img" aria-label="Hi, I'm Patthamon — AI undergraduate building AI for healthcare">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="240" viewBox="0 0 820 240" role="img" aria-label="Hi, I'm Patthamon Charaschimpleekul — AI undergraduate building AI for healthcare, LLM apps, RAG, GNNs">
   <style>
-    .t1{font:700 36px 'Segoe UI',sans-serif;fill:#3D4A5C}
-    .t2{font:400 15px 'Segoe UI',sans-serif;fill:#5B6B7F}
+    .t1{font:700 34px 'Segoe UI',sans-serif;fill:#3D4A5C}
+    .tg{font:400 16px 'Segoe UI',sans-serif;fill:#5B6B7F}
     .txt{animation:fadein 1.2s ease both}
     .b1{animation:drift1 9s ease-in-out infinite}
     .b2{animation:drift2 11s ease-in-out infinite}
     .b3{animation:drift1 13s ease-in-out infinite reverse}
-    .line{stroke-dasharray:640;stroke-dashoffset:640;animation:wave 2.2s ease .5s forwards}
-    @keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(18px,-12px)}}
-    @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-14px,14px)}}
+    @keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(24px,-10px)}}
+    @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-18px,12px)}}
     @keyframes fadein{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-    @keyframes wave{to{stroke-dashoffset:0}}
   </style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -18,15 +16,36 @@
       <stop offset=".55" stop-color="#F3FAF6"/>
       <stop offset="1" stop-color="#F1F6FD"/>
     </linearGradient>
-    <radialGradient id="g1"><stop offset="0" stop-color="#B5EAD7" stop-opacity=".85"/><stop offset="1" stop-color="#B5EAD7" stop-opacity="0"/></radialGradient>
-    <radialGradient id="g2"><stop offset="0" stop-color="#F9C9D3" stop-opacity=".85"/><stop offset="1" stop-color="#F9C9D3" stop-opacity="0"/></radialGradient>
-    <radialGradient id="g3"><stop offset="0" stop-color="#D8C6EC" stop-opacity=".8"/><stop offset="1" stop-color="#D8C6EC" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="16"/></filter>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B5EAD7"/>
+      <stop offset=".33" stop-color="#A7D8F0"/>
+      <stop offset=".66" stop-color="#D8C6EC"/>
+      <stop offset="1" stop-color="#F9C9D3"/>
+    </linearGradient>
+    <!-- typewriter masks: wipe reveal then wipe away, 12s cycle, one phase per tagline -->
+    <mask id="mA"><rect x="62" y="174" width="0" height="26" fill="#fff"><animate attributeName="width" values="0;430;430;0;0" keyTimes="0;.1;.3;.34;1" dur="12s" begin="0s" repeatCount="indefinite"/></rect></mask>
+    <mask id="mB"><rect x="62" y="174" width="0" height="26" fill="#fff"><animate attributeName="width" values="0;370;370;0;0" keyTimes="0;.1;.3;.34;1" dur="12s" begin="4s" repeatCount="indefinite"/></rect></mask>
+    <mask id="mC"><rect x="62" y="174" width="0" height="26" fill="#fff"><animate attributeName="width" values="0;385;385;0;0" keyTimes="0;.1;.3;.34;1" dur="12s" begin="8s" repeatCount="indefinite"/></rect></mask>
   </defs>
-  <rect width="820" height="220" rx="18" fill="url(#bg)"/>
-  <circle class="b1" cx="95" cy="55" r="75" fill="url(#g1)"/>
-  <circle class="b2" cx="735" cy="165" r="95" fill="url(#g2)"/>
-  <circle class="b3" cx="685" r="55" cy="45" fill="url(#g3)"/>
-  <text class="t1 txt" x="60" y="98">Hi, I’m Patthamon 👋</text>
-  <text class="t2 txt" x="62" y="130">AI undergraduate · building AI for healthcare — digital twins, GNNs, clinical decision support</text>
-  <path class="line" d="M62 156 C 170 132, 280 178, 400 156 S 620 132, 758 156" fill="none" stroke="#A7D8F0" stroke-width="4" stroke-linecap="round"/>
+  <rect width="820" height="240" rx="18" fill="url(#bg)"/>
+  <!-- aurora band -->
+  <g filter="url(#soft)">
+    <path class="b1" d="M-40,58 C140,100 340,10 520,52 S 760,90 860,40 L860,-30 L-40,-30 Z" fill="#B5EAD7" opacity=".55"/>
+    <path class="b2" d="M-40,80 C170,20 380,110 570,48 S 780,20 860,72 L860,-20 L-40,-20 Z" fill="#A7D8F0" opacity=".45"/>
+    <path class="b3" d="M-40,96 C220,66 400,130 620,78 S 800,54 860,92 L860,30 L-40,30 Z" fill="#F9C9D3" opacity=".4"/>
+  </g>
+  <text class="t1 txt" x="60" y="148">Patthamon Charaschimpleekul 👋</text>
+  <line x1="62" y1="160" x2="452" y2="160" stroke="url(#hair)" stroke-width="3" stroke-linecap="round"/>
+  <!-- cycling taglines -->
+  <g class="tg">
+    <text x="62" y="193" mask="url(#mA)">AI undergraduate · Harbin Engineering University 🇨🇳</text>
+    <text x="62" y="193" mask="url(#mB)">Building AI for healthcare &amp; digital twins 🩺</text>
+    <text x="62" y="193" mask="url(#mC)">LLM apps · RAG · GNNs · two patents pending ✨</text>
+  </g>
+  <!-- caret synced with the active line -->
+  <rect x="62" y="177" width="2" height="20" fill="#E58AA8">
+    <animate attributeName="x" values="62;492;492;62;62;432;432;62;62;447;447;62" keyTimes="0;.1;.3;.34;.341;.44;.64;.68;.681;.78;.98;1" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0" dur="0.7s" repeatCount="indefinite" calcMode="discrete"/>
+  </rect>
 </svg>
