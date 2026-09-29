@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="220" viewBox="0 0 820 220" role="img" aria-label="Hi, I'm Patthamon — AI undergraduate building AI for healthcare">
+  <style>
+    .t1{font:700 36px 'Segoe UI',sans-serif;fill:#3D4A5C}
+    .t2{font:400 15px 'Segoe UI',sans-serif;fill:#5B6B7F}
+    .txt{animation:fadein 1.2s ease both}
+    .b1{animation:drift1 9s ease-in-out infinite}
+    .b2{animation:drift2 11s ease-in-out infinite}
+    .b3{animation:drift1 13s ease-in-out infinite reverse}
+    .line{stroke-dasharray:640;stroke-dashoffset:640;animation:wave 2.2s ease .5s forwards}
+    @keyframes drift1{0%,100%{transform:translate(0,0)}50%{transform:translate(18px,-12px)}}
+    @keyframes drift2{0%,100%{transform:translate(0,0)}50%{transform:translate(-14px,14px)}}
+    @keyframes fadein{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+    @keyframes wave{to{stroke-dashoffset:0}}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FDF6FA"/>
+      <stop offset=".55" stop-color="#F3FAF6"/>
+      <stop offset="1" stop-color="#F1F6FD"/>
+    </linearGradient>
+    <radialGradient id="g1"><stop offset="0" stop-color="#B5EAD7" stop-opacity=".85"/><stop offset="1" stop-color="#B5EAD7" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2"><stop offset="0" stop-color="#F9C9D3" stop-opacity=".85"/><stop offset="1" stop-color="#F9C9D3" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g3"><stop offset="0" stop-color="#D8C6EC" stop-opacity=".8"/><stop offset="1" stop-color="#D8C6EC" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="820" height="220" rx="18" fill="url(#bg)"/>
+  <circle class="b1" cx="95" cy="55" r="75" fill="url(#g1)"/>
+  <circle class="b2" cx="735" cy="165" r="95" fill="url(#g2)"/>
+  <circle class="b3" cx="685" r="55" cy="45" fill="url(#g3)"/>
+  <text class="t1 txt" x="60" y="98">Hi, I’m Patthamon 👋</text>
+  <text class="t2 txt" x="62" y="130">AI undergraduate · building AI for healthcare — digital twins, GNNs, clinical decision support</text>
+  <path class="line" d="M62 156 C 170 132, 280 178, 400 156 S 620 132, 758 156" fill="none" stroke="#A7D8F0" stroke-width="4" stroke-linecap="round"/>
+</svg>

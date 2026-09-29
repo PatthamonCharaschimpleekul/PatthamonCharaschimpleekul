@@ -1,0 +1,40 @@
+name: 🐍 Generate snake animation
+
+on:
+  schedule:
+    - cron: '0 17 * * *'          # ~daily (17:00 UTC ≈ midnight Bangkok)
+  workflow_dispatch:              # manual "Run workflow" button
+  push:
+    branches: [main]
+    paths-ignore:
+      - '.github/**'
+      - 'README.md'
+      - 'assets/snake.gif'   # ignore the workflow's own auto-commits — prevents a trigger loop
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake.gif?palette=github-light&width=480&color_snake=%23E58AA8&color_dots=%23ffffff%2C%23FDF0F4%2C%23F9C9D3%2C%23E58AA8%2C%23C94F7C
+
+      - name: Commit updated snake.gif
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: regenerate snake 🐍'
+          file_pattern: assets/snake.gif
