@@ -45,7 +45,8 @@
 
 ## 💼 Experience
 
-**Video KB** · *Data & AI Intern* — 6 Jul 2026 – 28 Oct 2026
+**SCGChemicals** · *Data & AI Intern* — 6 Jul 2026 – 28 Oct 2026
+*Video Knowledge Base* 
 *AILY Cowork* — enterprise AI-agent desktop app, extended from the open-source **OpenWorker**
 
 - Shipped **8 production AI-agent features** across a full stack: Python backend · React/TypeScript frontend · Rust/Tauri desktop shell
