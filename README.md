@@ -32,8 +32,7 @@
 
 - 💼 Currently **Data & AI Intern at SCG Chemicals (SCGC)** — working on the **Video Knowledge Base** & shipping AI-agent features for *AILY Cowork*, an enterprise agent app extending the open-source **OpenWorker**
 - 🔬 Research: **Marine Digital Twins** (graph models · simulation · sensor fusion) & **AI Cultural Logic Alignment (CLAP)** — preserving Thai calendrical logic in LLMs via Knowledge Graphs + RAG
-- 🎤 Presented CLAP policy work at **Google's 2026 Online Safety Dialogue** (UNITAR × Renmin University)
-- 👑 Two petty patents pending: pineapple-leaf-fibre air filtration & PCM cold-chain logistics
+- 👑 Two petty patents pending: **PALF** air filtration (filed 21 May 2026) & **PCM** cold-chain logistics (filed 23 Mar 2026) · 📜 PALF work copyrighted — Reg. No. **ว1.001340** (7 Sep 2026)
 - 🗣 ไทย (native) · English (IELTS 5.0) · 中文 (HSK 4) — a Thai AI student living in Harbin 🇨🇳
 - 💬 Ask me about RAG evaluation loops, GNNs, or juggling a double degree across two countries
 
