@@ -30,7 +30,7 @@
 </tr>
 </table>
 
-- 💼 Currently **Data & AI Intern at Video KB** — shipping AI-agent features for *AILY Cowork*, an enterprise agent app extending the open-source **OpenWorker**
+- 💼 Currently **Data & AI Intern at SCG Chemicals (SCGC)** — working on the **Video Knowledge Base** & shipping AI-agent features for *AILY Cowork*, an enterprise agent app extending the open-source **OpenWorker**
 - 🔬 Research: **Marine Digital Twins** (graph models · simulation · sensor fusion) & **AI Cultural Logic Alignment (CLAP)** — preserving Thai calendrical logic in LLMs via Knowledge Graphs + RAG
 - 🎤 Presented CLAP policy work at **Google's 2026 Online Safety Dialogue** (UNITAR × Renmin University)
 - 👑 Two petty patents pending: pineapple-leaf-fibre air filtration & PCM cold-chain logistics
@@ -45,9 +45,8 @@
 
 ## 💼 Experience
 
-**SCGChemicals** · *Data & AI Intern* — 6 Jul 2026 – 28 Oct 2026
-*Video Knowledge Base* 
-*AILY Cowork* — enterprise AI-agent desktop app, extended from the open-source **OpenWorker**
+**SCG Chemicals (SCGC)** · *Data & AI Intern* — 6 Jul 2026 – 28 Oct 2026
+Projects: **Video Knowledge Base** · **AILY Cowork** — enterprise AI-agent desktop app, extended from the open-source **OpenWorker**
 
 - Shipped **8 production AI-agent features** across a full stack: Python backend · React/TypeScript frontend · Rust/Tauri desktop shell
 - Built an **LLM-powered Knowledge Graph** (entity/relation extraction → force-directed ECharts) plus a browser knowledge-upload flow grounding the agent in user files
@@ -92,9 +91,9 @@
 </td>
 <td align="center">
 
-<b>🔬 <a href="https://github.com/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn">Entropy-Constrained Spectral Wave PINN</a></b><br/>
-Entropy-production-constrained learning of wave dissipation<br/>
-<sub>PINN for the spectral wave energy balance · Stage A–E pipeline · validated on Hurricane Ian 2022 · <a href="https://github.com/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn"><img src="https://img.shields.io/github/stars/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn?style=social" alt="Stars"/></a></sub>
+<a href="https://github.com/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn"><img src="assets/pin-wave-pinn.svg" width="420" alt="entropy-constrained-spectral-wave-pinn: Entropy effects on physics-informed neural networks for the spectral wave energy balance equation"/></a><br/>
+🔬 <b>Research</b> · entropy-constrained PINN for spectral wave energy balance <a href="https://github.com/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn"><img src="https://img.shields.io/github/stars/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn?style=social" alt="Stars"/></a><br/>
+<sub>Wave-dissipation learning (Stage A–E pipeline) · validated on Hurricane Ian 2022</sub>
 
 </td>
 </tr>
