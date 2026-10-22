@@ -1,0 +1,25 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ml-disease-prediction: an ECG trace redraws itself over rising prediction bars">
+  <rect x="1" y="1" width="418" height="118" rx="12" fill="#FEFCFF" stroke="#FDDCAD" stroke-width="2"/>
+  <text x="20" y="27" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" font-weight="600" fill="#3D4A5C">ml-disease-prediction</text>
+
+  <rect x="14" y="36" width="392" height="72" rx="8" fill="#FDF3F7"/>
+
+  <!-- prediction bars breathing -->
+  <rect x="36" y="80" width="14" height="22" rx="3" fill="#F7C6D8"/>
+  <rect x="58" y="64" width="14" height="38" rx="3" fill="#F285B0"><animate attributeName="height" values="38;26;44;38" dur="3.2s" repeatCount="indefinite"/><animate attributeName="y" values="64;76;58;64" dur="3.2s" repeatCount="indefinite"/></rect>
+  <rect x="80" y="86" width="14" height="16" rx="3" fill="#CFE6F4"><animate attributeName="height" values="16;30;12;16" dur="2.7s" repeatCount="indefinite"/><animate attributeName="y" values="86;72;90;86" dur="2.7s" repeatCount="indefinite"/></rect>
+
+  <!-- medical cross -->
+  <g fill="#B8DCEC"><rect x="110" y="52" width="8" height="22" rx="2"/><rect x="103" y="59" width="22" height="8" rx="2"/></g>
+
+  <!-- ECG trace redraws, clipped to strip -->
+  <clipPath id="ecg"><rect x="140" y="42" width="252" height="60" rx="6"/></clipPath>
+  <g clip-path="url(#ecg)">
+    <line x1="140" y1="72" x2="392" y2="72" stroke="#CFE6F4" stroke-width="1.5"/>
+    <path d="M146 72 h26 l6 -16 l8 30 l7 -22 l5 8 h24 l6 -12 l8 22 l7 -18 l5 6 h26 l6 -16 l8 30 l7 -22 l5 8 h24 l6 -12 l8 22 l7 -18 l5 6 h26"
+          stroke="#DF4583" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"
+          stroke-dasharray="520" stroke-dashoffset="0">
+      <animate attributeName="stroke-dashoffset" values="520;0;0" keyTimes="0;0.75;1" dur="4.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

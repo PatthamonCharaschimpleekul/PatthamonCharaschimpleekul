@@ -31,10 +31,24 @@
 </table>
 
 - 💼 Currently **Data & AI Intern at SCG Chemicals (SCGC)** — working on the **Video Knowledge Base** & shipping AI-agent features for *AILY Cowork*, an enterprise agent app extending the open-source **OpenWorker**
-- 🔬 Research: **Marine Digital Twins** (graph models · simulation · sensor fusion)
-- 👑 Two petty patents pending: **PALF** air filtration (filed 21 May 2026) & **PCM** cold-chain logistics (filed 23 Mar 2026) · 📜 PALF work copyrighted — Reg. No. **ว1.001340** (7 Sep 2026)
+- 🔬 Research: **entropy-constrained-spectral-wave-pinn** (physics-informed neural networks · wave-energy dissipation)
+- 👑 Intellectual property: 2 petty patents pending & 1 registered copyright — details in **Intellectual property** below
 - 🗣 ไทย (native) · English (IELTS 5.0) · 中文 (HSK 4) — a Thai AI student living in Harbin 🇨🇳
 - 💬 Ask me about RAG evaluation loops, GNNs, or juggling a double degree across two countries
+
+<div align="center">
+
+<img src="assets/divider.svg" width="70%" alt="" />
+
+</div>
+
+## 👑 Intellectual property
+
+<div align="center">
+
+<img src="assets/ip-banner.svg" width="100%" alt="Three IP milestones: petty patent for PCM cold-chain logistics filed 23 Mar 2026 (pending); petty patent for PALF air filtration filed 21 May 2026 (pending); PALF work copyright registered 7 Sep 2026, No. ว1.001340 — granted" />
+
+</div>
 
 <div align="center">
 
@@ -67,32 +81,32 @@ Projects: **Video Knowledge Base** · **AILY Cowork** — enterprise AI-agent de
 <tr>
 <td align="center">
 
-<a href="https://github.com/PatthamonCharaschimpleekul/BioLock-PM"><img src="https://github-readme-stats.vercel.app/api/pin/?username=PatthamonCharaschimpleekul&repo=BioLock-PM&bg_color=FEFCFF&title_color=3D4A5C&text_color=5B6B7F&icon_color=E58AA8&border_color=B5EAD7&border_radius=12" width="420" alt="BioLock-PM: Autonomous Bio-Filter for Urban AC Units"/></a><br/>
-👑 <b>Petty Patent Pending</b> · AI-optimized PALF pleated filter<br/>
-<sub>98.01% capture efficiency · 5.46 Pa pressure drop · Python → CAD geometry pipeline</sub>
+<a href="https://github.com/PatthamonCharaschimpleekul/pc-town"><img src="assets/thumb-pc-town.svg" width="420" alt="pc-town — animated preview: a pixel town whose houses double as CPU/RAM meters, windows blinking while a tiny resident walks home"/></a><br/>
+🖥️ <b>PC Town</b> · pixel-art system monitor <a href="https://github.com/PatthamonCharaschimpleekul/pc-town"><img src="https://img.shields.io/github/stars/PatthamonCharaschimpleekul/pc-town?style=social" alt="Stars"/></a><br/>
+<sub>Python · your machine's load rendered as a living little town</sub>
 
 </td>
 <td align="center">
 
-<a href="https://github.com/PatthamonCharaschimpleekul/Intelligent-Bio-Logistics-Ecosystem"><img src="https://github-readme-stats.vercel.app/api/pin/?username=PatthamonCharaschimpleekul&repo=Intelligent-Bio-Logistics-Ecosystem&bg_color=FEFCFF&title_color=3D4A5C&text_color=5B6B7F&icon_color=E58AA8&border_color=D8C6EC&border_radius=12" width="420" alt="Intelligent Bio-Logistics Ecosystem"/></a><br/>
-👑 <b>Petty Patent Pending</b> · AI-driven PCM cold-chain box<br/>
-<sub>Random-Forest traffic routing + heat-transfer simulation · 100% shipment safety @ 40 °C</sub>
+<a href="https://github.com/PatthamonCharaschimpleekul/my-personal-ai-chatbot"><img src="assets/thumb-chatbot.svg" width="420" alt="my-personal-ai-chatbot — animated preview: a question bubble slides in and the agent debate answers with typing dots"/></a><br/>
+🤖 <b>My Personal AI Chatbot</b> · local-first multi-agent <a href="https://github.com/PatthamonCharaschimpleekul/my-personal-ai-chatbot"><img src="https://img.shields.io/github/stars/PatthamonCharaschimpleekul/my-personal-ai-chatbot?style=social" alt="Stars"/></a><br/>
+<sub>LangGraph debate agents + persona memory · Streamlit · runs fully on Ollama</sub>
 
 </td>
 </tr>
 <tr>
 <td align="center">
 
-<a href="https://github.com/PatthamonCharaschimpleekul/ml-disease-prediction"><img src="https://github-readme-stats.vercel.app/api/pin/?username=PatthamonCharaschimpleekul&repo=ml-disease-prediction&bg_color=FEFCFF&title_color=3D4A5C&text_color=5B6B7F&icon_color=E58AA8&border_color=FDDCAD&border_radius=12" width="420" alt="ml-disease-prediction: Predictive Analytics for Clinical Diagnostics"/></a><br/>
-🏆 <b>Top-3</b> coding project · clinical diagnostics via ML<br/>
+<a href="https://github.com/PatthamonCharaschimpleekul/ml-disease-prediction"><img src="assets/thumb-ml-disease.svg" width="420" alt="ml-disease-prediction — animated preview: an ECG trace redraws itself over breathing prediction bars"/></a><br/>
+🏆 <b>Top-3</b> coding project · clinical diagnostics via ML <a href="https://github.com/PatthamonCharaschimpleekul/ml-disease-prediction"><img src="https://img.shields.io/github/stars/PatthamonCharaschimpleekul/ml-disease-prediction?style=social" alt="Stars"/></a><br/>
 <sub>Random-Forest screening over 130+ symptoms · confidence-scored output · JS symptom UI</sub>
 
 </td>
 <td align="center">
 
-<a href="https://github.com/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn"><img src="assets/pin-wave-pinn.svg" width="420" alt="entropy-constrained-spectral-wave-pinn: Entropy effects on physics-informed neural networks for the spectral wave energy balance equation"/></a><br/>
+<a href="https://github.com/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn"><img src="assets/thumb-wave-pinn.svg" width="420" alt="entropy-constrained-spectral-wave-pinn — animated preview: a swell crosses the frame until its crest breaks into foam, the dissipation term the PINN is taught to respect"/></a><br/>
 🔬 <b>Research</b> · entropy-constrained PINN for spectral wave energy balance <a href="https://github.com/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn"><img src="https://img.shields.io/github/stars/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn?style=social" alt="Stars"/></a><br/>
-<sub>Wave-dissipation learning (Stage A–E pipeline) · validated on Hurricane Ian 2022</sub>
+<sub>Wave-dissipation learning (Stage A–E pipeline) · validated on Hurricane Ian 2022 · in progress</sub>
 
 </td>
 </tr>

@@ -1,0 +1,43 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="my-personal-ai-chatbot: a user bubble slides in, the agent debate answers with typing dots that keep pulsing">
+  <rect x="1" y="1" width="418" height="118" rx="12" fill="#FEFCFF" stroke="#D8C6EC" stroke-width="2"/>
+  <text x="20" y="27" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" font-weight="600" fill="#3D4A5C">my-personal-ai-chatbot</text>
+
+  <rect x="14" y="36" width="392" height="72" rx="8" fill="#F3EEFA"/>
+
+  <!-- user bubble slides in -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-40 0;0 0;0 0;0 0" keyTimes="0;0.15;0.85;1" dur="6s" repeatCount="indefinite"/>
+    <rect x="34" y="52" width="120" height="26" rx="10" fill="#CFE6F4"/>
+    <path d="M44 78 L40 86 L54 78 Z" fill="#CFE6F4"/>
+    <rect x="46" y="60" width="72" height="4" rx="2" fill="#5B6B7F" opacity="0.55"/>
+    <rect x="46" y="68" width="48" height="4" rx="2" fill="#5B6B7F" opacity="0.35"/>
+  </g>
+
+  <!-- routing sparks between bubbles -->
+  <circle cy="66" r="2.5" fill="#E58AA8">
+    <animate attributeName="cx" values="158;250;158" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cy="70" r="2" fill="#7FB8D8">
+    <animate attributeName="cx" values="158;250;158" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.8;1" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- agent bubble with typing dots -->
+  <g>
+    <rect x="252" y="46" width="132" height="38" rx="12" fill="#F7C6D8"/>
+    <path d="M370 84 L378 92 L362 84 Z" fill="#F7C6D8"/>
+    <circle cx="292" cy="65" r="4" fill="#DF4583"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="312" cy="65" r="4" fill="#DF4583"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.2s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="332" cy="65" r="4" fill="#DF4583"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- tiny robot head -->
+  <g stroke="#2F3E4E" stroke-width="2">
+    <line x1="222" y1="46" x2="222" y2="40"/>
+    <circle cx="222" cy="38" r="2" fill="#E5468A" stroke="none"/>
+  </g>
+  <rect x="208" y="92" width="28" height="16" rx="5" fill="#2F3E4E"/>
+  <circle cx="216" cy="100" r="2" fill="#9ADBF2"/>
+  <circle cx="228" cy="100" r="2" fill="#9ADBF2"/>
+</svg>

@@ -1,0 +1,49 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="pc-town: pixel town whose houses double as CPU/RAM meters — windows blink, a bar meter breathes, a tiny resident walks home">
+  <rect x="1" y="1" width="418" height="118" rx="12" fill="#FEFCFF" stroke="#B5EAD7" stroke-width="2"/>
+  <text x="20" y="27" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" font-weight="600" fill="#3D4A5C">pc-town</text>
+
+  <!-- sky strip -->
+  <rect x="14" y="36" width="392" height="72" rx="8" fill="#EAF4FB"/>
+
+  <!-- drifting cloud -->
+  <g fill="#FFFFFF" opacity="0.9">
+    <rect x="300" y="44" width="34" height="9" rx="4.5"><animateTransform attributeName="transform" type="translate" values="0 0;60 0;0 0" dur="9s" repeatCount="indefinite"/></rect>
+    <rect x="312" y="39" width="18" height="8" rx="4"><animateTransform attributeName="transform" type="translate" values="0 0;60 0;0 0" dur="9s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- house 1 -->
+  <rect x="34" y="74" width="44" height="30" fill="#C9E2F2"/>
+  <path d="M30 74 L56 56 L82 74 Z" fill="#2F3E4E"/>
+  <rect x="44" y="82" width="8" height="8" fill="#F285B0"><animate attributeName="opacity" values="1;0.25;1" dur="1.7s" repeatCount="indefinite"/></rect>
+  <rect x="58" y="82" width="8" height="8" fill="#FFD166"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.3s" repeatCount="indefinite"/></rect>
+
+  <!-- house 2 -->
+  <rect x="96" y="66" width="50" height="38" fill="#F7C6D8"/>
+  <path d="M92 66 L121 46 L150 66 Z" fill="#2F3E4E"/>
+  <rect x="104" y="74" width="8" height="8" fill="#FFD166"><animate attributeName="opacity" values="1;0.2;1" dur="2.1s" begin="0.5s" repeatCount="indefinite"/></rect>
+  <rect x="118" y="74" width="8" height="8" fill="#F285B0"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/></rect>
+  <rect x="110" y="88" width="12" height="16" fill="#2F3E4E"/>
+
+  <!-- house 3 -->
+  <rect x="164" y="78" width="40" height="26" fill="#D8C6EC"/>
+  <path d="M160 78 L184 62 L208 78 Z" fill="#2F3E4E"/>
+  <rect x="172" y="84" width="7" height="7" fill="#F285B0"><animate attributeName="opacity" values="1;0.3;1" dur="1.9s" begin="0.8s" repeatCount="indefinite"/></rect>
+  <rect x="186" y="84" width="7" height="7" fill="#FFD166"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></rect>
+
+  <!-- ground -->
+  <rect x="14" y="104" width="392" height="4" fill="#B8DCEC"/>
+
+  <!-- walking resident -->
+  <circle r="3.5" fill="#E5468A">
+    <animate attributeName="cy" values="100;98;100" dur="0.6s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="222;300;222" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- CPU bar meter: houses-as-metres vibe -->
+  <g>
+    <rect x="320" y="94" width="10" height="10" fill="#F285B0"><animate attributeName="height" values="10;58;22;46;10" dur="4s" repeatCount="indefinite"/><animate attributeName="y" values="94;46;82;58;94" dur="4s" repeatCount="indefinite"/></rect>
+    <rect x="336" y="72" width="10" height="32" fill="#DF4583"><animate attributeName="height" values="32;12;54;20;32" dur="5s" repeatCount="indefinite"/><animate attributeName="y" values="72;92;50;84;72" dur="5s" repeatCount="indefinite"/></rect>
+    <rect x="352" y="58" width="10" height="46" fill="#E58AA8"><animate attributeName="height" values="46;60;18;52;46" dur="4.6s" repeatCount="indefinite"/><animate attributeName="y" values="58;44;86;52;58" dur="4.6s" repeatCount="indefinite"/></rect>
+    <text x="320" y="112" font-family="Segoe UI, Ubuntu, sans-serif" font-size="8" fill="#5B6B7F">CPU · RAM · NET</text>
+  </g>
+</svg>

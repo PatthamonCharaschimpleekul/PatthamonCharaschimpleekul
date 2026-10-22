@@ -1,0 +1,29 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="entropy-constrained-spectral-wave-pinn: a swell crosses the frame until it breaks — the dissipation term a PINN is being taught to respect">
+  <rect x="1" y="1" width="418" height="118" rx="12" fill="#FEFCFF" stroke="#B8DCEC" stroke-width="2"/>
+  <text x="20" y="27" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" font-weight="600" fill="#3D4A5C">entropy-constrained-spectral-wave-pinn</text>
+
+  <rect x="14" y="36" width="392" height="72" rx="8" fill="#EAF4FB"/>
+
+  <!-- travelling swell -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;-40 0;0 0" dur="5s" repeatCount="indefinite"/>
+    <path d="M-10 84 Q25 66 60 84 T130 84 T200 84 T270 84 T340 84 T410 84 T480 84 V108 H-10 Z" fill="#B8DCEC"/>
+    <path d="M-10 92 Q25 78 60 92 T130 92 T200 92 T270 92 T340 92 T410 92 T480 92 V108 H-10 Z" fill="#7FB8D8" opacity="0.75"/>
+  </g>
+
+  <!-- breaking crest pinned at right third -->
+  <path d="M250 70 Q268 46 292 58 Q308 66 300 80 Q282 70 268 78 Q256 76 250 70 Z" fill="#DF4583" opacity="0.9">
+    <animate attributeName="opacity" values="0.55;0.95;0.55" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <!-- foam spray -->
+  <circle cx="292" cy="52" r="3" fill="#FFFFFF"><animate attributeName="cy" values="52;44;52" dur="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="303" cy="47" r="2" fill="#F7C6D8"><animate attributeName="cy" values="47;40;47" dur="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="283" cy="44" r="1.6" fill="#FFFFFF"><animate attributeName="cy" values="44;37;44" dur="2s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0.1;1" dur="2s" begin="0.6s" repeatCount="indefinite"/></circle>
+
+  <!-- entropy arrow: order -> dissipation -->
+  <g stroke="#5B6B7F" stroke-width="1.5" opacity="0.65">
+    <line x1="330" y1="96" x2="376" y2="96"/>
+    <path d="M372 92 L378 96 L372 100" fill="none"/>
+  </g>
+  <text x="330" y="108" font-family="Segoe UI, Ubuntu, sans-serif" font-size="7.5" fill="#5B6B7F">S ≥ 0</text>
+</svg>
