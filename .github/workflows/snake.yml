@@ -31,7 +31,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/snake.gif?palette=github-light&width=480&color_snake=%23E58AA8&color_dots=%23ffffff%2C%23FDF0F4%2C%23F9C9D3%2C%23E58AA8%2C%23C94F7C
+            assets/snake.gif?width=480&color_snake=%232F3E4E&color_background=%23EAF4FB&color_dot_border=%23FFFFFF&color_dots=%23C9E2F2%2C%23F7C6D8%2C%23F285B0%2C%23DF4583%2C%23A9165E
 
       - name: Commit updated snake.gif
         uses: stefanzweifel/git-auto-commit-action@v5

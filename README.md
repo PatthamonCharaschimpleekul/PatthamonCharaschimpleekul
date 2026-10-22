@@ -92,9 +92,9 @@
 </td>
 <td align="center">
 
-<b>🚧 Marine Digital Twin</b><br/>
-Predictive digital twin for marine assets — graph models, simulation & sensor fusion<br/>
-<sub>Research in progress · code coming soon ✨</sub>
+<b>🔬 <a href="https://github.com/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn">Entropy-Constrained Spectral Wave PINN</a></b><br/>
+Entropy-production-constrained learning of wave dissipation<br/>
+<sub>PINN for the spectral wave energy balance · Stage A–E pipeline · validated on Hurricane Ian 2022 · <a href="https://github.com/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn"><img src="https://img.shields.io/github/stars/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn?style=social" alt="Stars"/></a></sub>
 
 </td>
 </tr>
@@ -161,20 +161,14 @@ Predictive digital twin for marine assets — graph models, simulation & sensor 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=PatthamonCharaschimpleekul&show_icons=true&bg_color=FDF6FA&border_color=B5EAD7&title_color=3D4A5C&icon_color=E58AA8&text_color=5B6B7F&border_radius=14&card_width=430" width="430" alt="GitHub stats card"/>
-<img src="https://github-readme-stats.vercel.app/api/streak/?username=PatthamonCharaschimpleekul&bg_color=FEFCFF&border_color=D8C6EC&stroke_color=B5EAD7&title_color=3D4A5C&text_color=5B6B7F&fire_color=E58AA8&ring_color=7FCBB0&border_radius=14" width="430" alt="GitHub streak stats"/>
+<img src="https://github-readme-stats.vercel.app/api?username=PatthamonCharaschimpleekul&show_icons=true&bg_color=F4FAFE&border_color=B8DCEC&title_color=2F3E4E&icon_color=E58AA8&text_color=4A5B6E&border_radius=14&card_width=430" width="430" alt="GitHub stats card"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PatthamonCharaschimpleekul&layout=compact&langs_count=8&bg_color=F4FAFE&border_color=F7C6D8&title_color=2F3E4E&text_color=4A5B6E&use_colors=true&border_radius=14&card_width=430" width="430" alt="Top programming languages"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PatthamonCharaschimpleekul&layout=compact&langs_count=8&bg_color=FEFCFF&border_color=FDDCAD&title_color=3D4A5C&text_color=5B6B7F&use_colors=true&border_radius=14&card_width=470" width="470" alt="Top programming languages"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=PatthamonCharaschimpleekul&theme=flat&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub profile achievements trophies"/>
+<img src="https://streak-stats.demolab.com?user=PatthamonCharaschimpleekul&bg_color=F4FAFE&border_color=B8DCEC&stroke_color=C9E2F2&title_color=2F3E4E&text_color=4A5B6E&icon_color=E58AA8&fire_color=E58AA8&ring_color=F285B0&curr_streak_color=DF4583&border_radius=14&card_width=480" width="480" alt="GitHub streak stats"/>
 
 </div>
 
@@ -188,7 +182,7 @@ Predictive digital twin for marine assets — graph models, simulation & sensor 
 
 <div align="center">
 
-<img src="assets/snake.gif" width="100%" alt="A pastel snake eating through my GitHub contribution grid"/>
+<img src="assets/snake.gif" width="100%" alt="A dark slate snake eating through my blue-pink contribution grid"/>
 
 </div>
 
