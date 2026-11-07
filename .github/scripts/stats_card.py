@@ -9,6 +9,7 @@ refused, that row is left out rather than breaking the whole card.
 Env vars: GITHUB_TOKEN, GH_USER, OUTPUT (default: assets/stats.svg)
 """
 import os
+import re
 import sys
 from datetime import datetime, timezone
 
@@ -87,7 +88,11 @@ def fetch(user, token):
         ("issue", "Total Issues", total("totalIssueContributions")),
         ("repo", f"Contributed to ({year})", this_year and this_year["totalRepositoriesWithContributedCommits"]),
     ]
-    name = (info.get("name") or info["login"]).split()[0]
+    if info.get("name"):
+        name = info["name"].split()[0]
+    else:  # "PatthamonCharaschimpleekul" -> "Patthamon"
+        name = re.match(r"[A-Z]?[^A-Z]+", info["login"]) or None
+        name = name.group(0) if name else info["login"]
     return name, [r for r in rows if r[2] is not None]
 
 
