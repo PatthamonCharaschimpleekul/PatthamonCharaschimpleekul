@@ -10,6 +10,9 @@ on:
       - '.github/**'
       - 'README.md'
       - 'assets/snake.gif'   # ignore the workflow's own auto-commits — prevents a trigger loop
+      - 'assets/stats.svg'   # ignore the stats-card workflow's auto-commits too
+      - 'assets/top-langs.svg'
+      - 'assets/streak.svg'
 
 permissions:
   contents: write
