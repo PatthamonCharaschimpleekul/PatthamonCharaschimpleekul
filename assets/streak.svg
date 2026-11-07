@@ -10,7 +10,7 @@
   <line x1="320" y1="28" x2="320" y2="170" stroke="#C9E2F2" stroke-width="1"/>
 
   <g text-anchor="middle">
-    <text x="80" y="79" class="num" fill="#2F3E4E">227</text>
+    <text x="80" y="79" class="num" fill="#2F3E4E">229</text>
     <text x="80" y="114" class="lbl" fill="#4A5B6E">Total Contributions</text>
     <text x="80" y="140" class="dt" fill="#4A5B6E">Oct 22, 2025 - Present</text>
   </g>
