@@ -9,6 +9,7 @@ on:
     paths:
       - '.github/workflows/readme-cards.yml'
       - '.github/scripts/streak_card.py'
+      - '.github/scripts/stats_card.py'
 
 permissions:
   contents: write
@@ -25,13 +26,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # The github-readme-stats action's stats card fails with GITHUB_TOKEN
+      # ("Resource not accessible by integration"), so this card is built locally.
       - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&bg_color=F4FAFE&border_color=B8DCEC&title_color=2F3E4E&icon_color=E58AA8&text_color=4A5B6E&border_radius=14&card_width=430
-          path: assets/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/stats_card.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+          OUTPUT: assets/stats.svg
 
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
