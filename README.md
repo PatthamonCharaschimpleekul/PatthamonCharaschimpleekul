@@ -173,14 +173,14 @@ Projects: **Video Knowledge Base** · **AILY Cowork** — enterprise AI-agent de
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=PatthamonCharaschimpleekul&show_icons=true&bg_color=F4FAFE&border_color=B8DCEC&title_color=2F3E4E&icon_color=E58AA8&text_color=4A5B6E&border_radius=14&card_width=430" width="430" alt="GitHub stats card"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PatthamonCharaschimpleekul&layout=compact&langs_count=8&bg_color=F4FAFE&border_color=F7C6D8&title_color=2F3E4E&text_color=4A5B6E&use_colors=true&border_radius=14&card_width=430" width="430" alt="Top programming languages"/>
+<img src="assets/stats.svg" width="430" alt="GitHub stats card"/>
+<img src="assets/top-langs.svg" width="430" alt="Top programming languages"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=PatthamonCharaschimpleekul&bg_color=F4FAFE&border_color=B8DCEC&stroke_color=C9E2F2&title_color=2F3E4E&text_color=4A5B6E&icon_color=E58AA8&fire_color=E58AA8&ring_color=F285B0&curr_streak_color=DF4583&border_radius=14&card_width=480" width="480" alt="GitHub streak stats"/>
+<img src="assets/streak.svg" width="480" alt="GitHub streak stats"/>
 
 </div>
 

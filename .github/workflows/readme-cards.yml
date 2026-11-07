@@ -1,0 +1,56 @@
+name: 📊 Generate README stats cards
+
+on:
+  schedule:
+    - cron: '30 17 * * *'         # ~daily (17:30 UTC ≈ 00:30 Bangkok), after the snake job
+  workflow_dispatch:              # manual "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/readme-cards.yml'
+      - '.github/scripts/streak_card.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-cards
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&bg_color=F4FAFE&border_color=B8DCEC&title_color=2F3E4E&icon_color=E58AA8&text_color=4A5B6E&border_radius=14&card_width=430
+          path: assets/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&bg_color=F4FAFE&border_color=F7C6D8&title_color=2F3E4E&text_color=4A5B6E&border_radius=14&card_width=430
+          path: assets/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak card
+        run: python3 .github/scripts/streak_card.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+          OUTPUT: assets/streak.svg
+          CARD_TZ: Asia/Bangkok
+
+      - name: Commit updated cards
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: regenerate stats cards 📊'
+          file_pattern: assets/stats.svg assets/top-langs.svg assets/streak.svg
