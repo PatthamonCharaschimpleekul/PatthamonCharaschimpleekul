@@ -1,6 +1,6 @@
-<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="entropy-constrained-spectral-wave-pinn: a swell crosses the frame until it breaks — the dissipation term a PINN is being taught to respect">
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Physics-informed wave dissipation: a swell crosses the frame until it breaks — the dissipation term the network has to reconstruct">
   <rect x="1" y="1" width="418" height="118" rx="12" fill="#FEFCFF" stroke="#B8DCEC" stroke-width="2"/>
-  <text x="20" y="27" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" font-weight="600" fill="#3D4A5C">entropy-constrained-spectral-wave-pinn</text>
+  <text x="20" y="27" font-family="Segoe UI, Ubuntu, sans-serif" font-size="14" font-weight="600" fill="#3D4A5C">physics-informed wave dissipation</text>
 
   <rect x="14" y="36" width="392" height="72" rx="8" fill="#EAF4FB"/>
 

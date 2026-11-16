@@ -31,7 +31,7 @@
 </table>
 
 - 💼 Currently **Data & AI Intern at SCG Chemicals (SCGC)** — working on the **Video Knowledge Base** & shipping AI-agent features for *AILY Cowork*, an enterprise agent app extending the open-source **OpenWorker**
-- 🔬 Research: **entropy-constrained-spectral-wave-pinn** (physics-informed neural networks · wave-energy dissipation)
+- 🔬 Research: **physics-informed inversion of ocean-wave dissipation** (PINNs · leak tests for synthetic twins · Hurricane Ian buoys)
 - 👑 Intellectual property: 2 petty patents pending & 1 registered copyright — details in **Intellectual property** below
 - 🗣 ไทย (native) · English (IELTS 5.0) · 中文 (HSK 4) — a Thai AI student living in Harbin 🇨🇳
 - 💬 Ask me about RAG evaluation loops, GNNs, or juggling a double degree across two countries
@@ -104,9 +104,9 @@ Projects: **Video Knowledge Base** · **AILY Cowork** — enterprise AI-agent de
 </td>
 <td align="center">
 
-<a href="https://github.com/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn"><img src="assets/thumb-wave-pinn.svg" width="420" alt="entropy-constrained-spectral-wave-pinn — animated preview: a swell crosses the frame until its crest breaks into foam, the dissipation term the PINN is taught to respect"/></a><br/>
-🔬 <b>Research</b> · entropy-constrained PINN for spectral wave energy balance <a href="https://github.com/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn"><img src="https://img.shields.io/github/stars/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn?style=social" alt="Stars"/></a><br/>
-<sub>Wave-dissipation learning (Stage A–E pipeline) · validated on Hurricane Ian 2022 · in progress</sub>
+<a href="https://github.com/PatthamonCharaschimpleekul/entropy-constrained-spectral-wave-pinn"><img src="assets/thumb-wave-pinn.svg" width="420" alt="Physics-informed wave dissipation — animated preview: a swell crosses the frame until its crest breaks into foam, the dissipation term the network has to reconstruct"/></a><br/>
+🔬 <b>Research</b> · physics-informed inversion of ocean-wave dissipation<br/>
+<sub>Leak tests for synthetic twins · pre-registered PINN experiments · Hurricane Ian 2022 buoys · paper under review</sub>
 
 </td>
 </tr>
